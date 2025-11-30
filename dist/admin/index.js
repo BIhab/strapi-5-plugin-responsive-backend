@@ -38,7 +38,8 @@ const index = {
             #main-content:not(:has(main)) > div:last-child {
                 padding: 20px;
             }
-            nav[aria-label="Content Manager"], nav[aria-label="Content-Type Builder"]{
+            nav[aria-label="Content Manager"], nav[aria-label="Content-Type Builder"],
+			nav[aria-label="Contenu"]{
                 width: 100%;
                 height: auto;
                 position: inherit;
